@@ -1,0 +1,264 @@
+\\192.168.1.61\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe.config
+\\192.168.1.61\BlueFlame\BlueFlame\obj\Debug\BlueFlame.exe
+\\192.168.1.61\BlueFlame\BlueFlame\obj\Debug\BlueFlame.pdb
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\Interop.NEROLib.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.csproj.ResolveComReference.cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Burn.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.BurnProgress.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Log.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.MainForm.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.ShowDistributedLicenses.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.LogonForm.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Properties.Resources.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Resources.BlueFlameResource.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Resources.SqlStrings.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe.config
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.pdb
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\Interop.NEROLib.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.exe
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.pdb
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.exe.config
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.exe
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.pdb
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\en\BlueFlame.resources.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.Classes.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.Classes.pdb
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\Interop.NEROLib.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\Interop.NeroVisionAPI.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\ResolveAssemblyReference.cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\Interop.NEROLib.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\Interop.NeroVisionAPI.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.csproj.ResolveComReference.cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Burn.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.BurnProgress.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Log.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.MainForm.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.ShowDistributedLicenses.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.LogonForm.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Properties.Resources.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Resources.BlueFlameResource.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Resources.SqlStrings.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.csproj.GenerateResource.Cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Burn.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.BurnProgress.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.LogonForm.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.MainForm.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.ShowDistributedLicenses.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\en\BlueFlame.resources.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.exe
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Release\BlueFlame.exe.config
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.exe
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Release\BlueFlame.exe
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Release\BlueFlame.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Release\en\BlueFlame.resources.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Release\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Release\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Release\Interop.NEROLib.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\Interop.NEROLib.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.csproj.ResolveComReference.cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Burn.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.BurnProgress.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Log.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.MainForm.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.ShowDistributedLicenses.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.LogonForm.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Properties.Resources.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Resources.BlueFlameResource.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Resources.SqlStrings.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Burn.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.BurnProgress.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.LogonForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.MainForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.ShowDistributedLicenses.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Release\en\BlueFlame.resources.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe.config
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.exe
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Debug\BlueFlame.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Debug\en\BlueFlame.resources.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Debug\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Debug\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\bin\Debug\Interop.NEROLib.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\Interop.NEROLib.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.csproj.ResolveComReference.cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Burn.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.BurnProgress.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Log.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.MainForm.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.ShowDistributedLicenses.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.LogonForm.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Properties.Resources.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Resources.BlueFlameResource.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Resources.SqlStrings.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Burn.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.BurnProgress.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.LogonForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.MainForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.ShowDistributedLicenses.en.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame\obj\Debug\en\BlueFlame.resources.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\en\BlueFlame.resources.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Burn.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.BurnProgress.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.LogonForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.MainForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.ShowDistributedLicenses.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\en\BlueFlame.resources.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe.config
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.pdb
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\en\BlueFlame.resources.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.Classes.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.Classes.pdb
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\Interop.NEROLib.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\Interop.NeroVisionAPI.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\Interop.NEROLib.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\Interop.NeroVisionAPI.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.csproj.ResolveComReference.cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Burn.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.BurnProgress.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Log.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.MainForm.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.ShowDistributedLicenses.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.LogonForm.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Properties.Resources.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Resources.BlueFlameResource.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Resources.SqlStrings.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.csproj.GenerateResource.Cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Burn.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.BurnProgress.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.LogonForm.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.MainForm.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.ShowDistributedLicenses.en.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\en\BlueFlame.resources.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.exe
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.pdb
+H:\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe.config
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.exe
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.pdb
+H:\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe
+H:\BlueFlame\BlueFlame\bin\Debug\BlueFlame.pdb
+H:\BlueFlame\BlueFlame\bin\Debug\en\BlueFlame.resources.dll
+H:\BlueFlame\BlueFlame\bin\Debug\BlueFlame.Classes.dll
+H:\BlueFlame\BlueFlame\bin\Debug\BlueFlame.Classes.pdb
+H:\BlueFlame\BlueFlame\bin\Debug\Interop.NEROLib.dll
+H:\BlueFlame\BlueFlame\obj\Debug\ResolveAssemblyReference.cache
+H:\BlueFlame\BlueFlame\obj\Debug\Interop.NEROLib.dll
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.csproj.ResolveComReference.cache
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Burn.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.BurnProgress.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Log.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.MainForm.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.ShowDistributedLicenses.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.LogonForm.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Properties.Resources.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Resources.BlueFlameResource.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Resources.SqlStrings.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.csproj.GenerateResource.Cache
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.Burn.en.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.BurnProgress.en.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.LogonForm.en.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.MainForm.en.resources
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.ShowDistributedLicenses.en.resources
+H:\BlueFlame\BlueFlame\obj\Debug\en\BlueFlame.resources.dll
+H:\BlueFlame\BlueFlame\obj\Release\ResolveAssemblyReference.cache
+H:\BlueFlame\BlueFlame\obj\Release\Interop.NEROLib.dll
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.csproj.ResolveComReference.cache
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Burn.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.BurnProgress.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Log.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.MainForm.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.ShowDistributedLicenses.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.LogonForm.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Properties.Resources.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Resources.BlueFlameResource.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Resources.SqlStrings.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.csproj.GenerateResource.Cache
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Burn.en.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.BurnProgress.en.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.LogonForm.en.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.MainForm.en.resources
+H:\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.ShowDistributedLicenses.en.resources
+H:\BlueFlame\BlueFlame\bin\Release\BlueFlame.exe.config
+H:\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe.manifest
+H:\BlueFlame\BlueFlame\bin\Debug\BlueFlame.application
+H:\BlueFlame\BlueFlame\bin\Debug\MySql.Data.dll
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.TrustInfo.xml
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.exe.manifest
+H:\BlueFlame\BlueFlame\obj\Debug\BlueFlame.application
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\x86\Release\BlueFlame.exe.config
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\Interop.NEROLib.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.csproj.ResolveComReference.cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Forms.Burn.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Forms.BurnProgress.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Forms.Log.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.MainForm.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Forms.ShowDistributedLicenses.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Forms.LogonForm.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Properties.Resources.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Resources.BlueFlameResource.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Resources.SqlStrings.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Forms.Burn.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Forms.BurnProgress.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Forms.LogonForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.MainForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\x86\Release\BlueFlame.Forms.ShowDistributedLicenses.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\license.rtf
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.exe.manifest
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Debug\BlueFlame.application
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.AboutBox1.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.Forms.RTFViewer.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.TrustInfo.xml
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.exe.manifest
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Debug\BlueFlame.application
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\license.rtf
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.exe.config
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.exe.manifest
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.application
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.exe
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.pdb
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\en\BlueFlame.resources.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\BlueFlame.Classes.xml
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\bin\Release\Interop.NEROLib.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\Interop.NEROLib.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.csproj.ResolveComReference.cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.AboutBox1.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Burn.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.BurnProgress.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Log.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.MainForm.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.RTFViewer.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.ShowDistributedLicenses.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.LogonForm.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Properties.Resources.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Resources.BlueFlameResource.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Resources.SqlStrings.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.Burn.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.BurnProgress.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.LogonForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.MainForm.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.Forms.ShowDistributedLicenses.en.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\en\BlueFlame.resources.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.TrustInfo.xml
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.exe.manifest
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.application
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.exe
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame\obj\Release\BlueFlame.pdb

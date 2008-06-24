@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GetAllLicensesForUser" xml:space="preserve">
+    <value>SELECT DISTINCT p.productname, l.licensekey 
+FROM licenselog l
+LEFT JOIN products p ON (p.file = l.file AND p.productid = l.productid)
+WHERE l.user = ?user AND l.message = '3000'</value>
+  </data>
+  <data name="GetAllProducts" xml:space="preserve">
+    <value>SELECT CONCAT(i.path,'\\',i.file,'.',i.ext) AS fullname, p.file,p.productid,p.productname,p.productdescription,i.date,i.lang, i.dvdmedia FROM products p, images i WHERE p.file=i.file ORDER BY productname</value>
+    <comment>Selects all products from the database</comment>
+  </data>
+  <data name="GetFileInfo" xml:space="preserve">
+    <value>SELECT CONCAT(i.path,'\\',i.file,'.',i.ext) AS filename, p.productname FROM products p LEFT JOIN images i ON(i.file = p.file) WHERE p.file = ?fileId AND p.productid = ?productId LIMIT 1</value>
+    <comment>Gets the full path of a file from the database</comment>
+  </data>
+  <data name="GetLicense" xml:space="preserve">
+    <value>SELECT licensekey, multi FROM license WHERE file = ?file AND productId = ?productid AND distributed = 0 LIMIT 1</value>
+    <comment>Gets all licenses for a product if they have not been distributed</comment>
+  </data>
+  <data name="GetLicenseDistributed" xml:space="preserve">
+    <value>SELECT licensekey FROM license WHERE file = ?file AND productId = ?productid</value>
+    <comment>Gets all licenses, even if distributed. Use this query string to check for the need of a license</comment>
+  </data>
+  <data name="GetLicenseFromLog" xml:space="preserve">
+    <value>SELECT licensekey, time FROM licenselog WHERE file= ?file AND productid = ?productid AND user = ?user AND domain = ?domain AND message = 3000</value>
+    <comment>Checks the log for a user. This is used to avoid distributing several licenses to a single user</comment>
+  </data>
+  <data name="GetLicenseSourceFile" xml:space="preserve">
+    <value>SELECT productname, licensefromfile, licensefromproductid FROM products WHERE file= ?fileId AND productid= ?productId</value>
+    <comment>This is used to update the local variables product id and file id, if the source file of the license is a different file than the product itself</comment>
+  </data>
+  <data name="NotifyLicenseLog" xml:space="preserve">
+    <value>INSERT INTO licenselog (user,file,productid,licensekey,time,message,domain) VALUES (?user,?file,?productid,?licensekey,?time,?message,?domain)</value>
+    <comment>Inserts a new record for distributed licenses</comment>
+  </data>
+  <data name="NotifyUserLog" xml:space="preserve">
+    <value>INSERT INTO userlog VALUES(NOW(), ?user, ?message, ?domain)</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>SELECT CONCAT(i.path,'\\',i.file,'.',i.ext) AS fullname, p.file,p.productid,p.productname,p.productdescription,i.date,i.lang, i.dvdmedia
+FROM products p, images i where p.file=i.file 
+AND (p.productname LIKE ?productName OR p.productdescription LIKE ?description) ORDER BY p.productname</value>
+    <comment>This is used to search for a product by any value</comment>
+  </data>
+  <data name="SetLicenseDistributed" xml:space="preserve">
+    <value>UPDATE license SET distributed = 1 WHERE file = ?file AND productid = ?productid AND licensekey = ?licensekey</value>
+    <comment>Sets a license to distributed if the license was a non multi license</comment>
+  </data>
+</root>

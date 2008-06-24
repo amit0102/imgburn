@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RedFlame" GeneratedClassName="ViewSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ShowAllChecked" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LastTab" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="tS_searchPosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">165, 24</Value>
+    </Setting>
+    <Setting Name="tS_licensePosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">399, 24</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
