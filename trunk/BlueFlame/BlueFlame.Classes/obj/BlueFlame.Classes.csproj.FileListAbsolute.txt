@@ -1,0 +1,55 @@
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\bin\Debug\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\bin\Debug\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.pdb
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\bin\Release\BlueFlame.Classes.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\bin\Release\BlueFlame.Classes.pdb
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\ResolveAssemblyReference.cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.DatabaseObjects.SqlStatements.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.csproj.GenerateResource.Cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\bin\Release\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\bin\Release\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Release\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.DatabaseObjects.SqlStatements.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\bin\Debug\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\bin\Debug\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.DatabaseObjects.SqlStatements.resources
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Desktop\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.DatabaseObjects.SqlStatements.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.csproj.GenerateResource.Cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\bin\Debug\BlueFlame.Classes.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\bin\Debug\BlueFlame.Classes.pdb
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.DatabaseObjects.SqlStatements.resources
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.csproj.GenerateResource.Cache
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.dll
+C:\Users\nossi\Documents\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.pdb
+H:\BlueFlame\BlueFlame.Classes\bin\Debug\BlueFlame.Classes.dll
+H:\BlueFlame\BlueFlame.Classes\bin\Debug\BlueFlame.Classes.pdb
+H:\BlueFlame\BlueFlame.Classes\obj\Debug\ResolveAssemblyReference.cache
+H:\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.DatabaseObjects.SqlStatements.resources
+H:\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.csproj.GenerateResource.Cache
+H:\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.dll
+H:\BlueFlame\BlueFlame.Classes\obj\Debug\BlueFlame.Classes.pdb
+H:\BlueFlame\BlueFlame.Classes\obj\Release\ResolveAssemblyReference.cache
+H:\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.DatabaseObjects.SqlStatements.resources
+H:\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\x86\Release\BlueFlame.Classes.DatabaseObjects.SqlStatements.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\x86\Release\BlueFlame.Classes.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\bin\Release\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\bin\Release\BlueFlame.Classes.pdb
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.DatabaseObjects.SqlStatements.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.csproj.GenerateResource.Cache
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.dll
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\BlueFlame.Classes\obj\Release\BlueFlame.Classes.pdb

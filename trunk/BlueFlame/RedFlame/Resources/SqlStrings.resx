@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GetAllImageLogs" xml:space="preserve">
+    <value>SELECT u.displayname, u.user, u.domain, l.file,l.time, m.text, l.rc
+FROM imageslog l
+LEFT JOIN user u USING(user,domain)
+LEFT JOIN message m USING(message)
+ORDER BY time</value>
+  </data>
+  <data name="GetAllLicenseLogs" xml:space="preserve">
+    <value>SELECT l.time, u.displayname, u.user, u.domain, l.file, l.productid,  l.licensekey, m.text
+FROM licenselog l
+LEFT JOIN user u USING(user,domain)
+LEFT JOIN message m USING(message)
+ORDER BY TIME</value>
+  </data>
+  <data name="GetAllProducts" xml:space="preserve">
+    <value>SELECT p.file,p.productid,p.productname,p.productdescription, i.path, i.ext,i.date,i.lang, i.dvdmedia FROM products p, images i WHERE p.file=i.file ORDER BY productname, file, date, productdescription, productid</value>
+    <comment>Used in: PopulateForm</comment>
+  </data>
+  <data name="GetAllUserLogs" xml:space="preserve">
+    <value>SELECT u.displayname,u.user,u.domain,l.time, m.text
+FROM userlog l
+LEFT JOIN message m USING(message)
+LEFT JOIN user u USING(user,domain) ORDER BY time</value>
+  </data>
+  <data name="GetAllUsers" xml:space="preserve">
+    <value>SELECT user, domain, displayname FROM user ORDER BY DOMAIN, user, displayname</value>
+    <comment>Used in: PopulateForm</comment>
+  </data>
+  <data name="GetFilteredProducts" xml:space="preserve">
+    <value>SELECT DISTINCT i.file, p.productname, p.productid, i.lang
+FROM license l
+LEFT JOIN images i using(file)
+LEFT JOIN products p using(file, productid)
+GROUP BY file, productid
+ORDER BY p.productname, file, productid</value>
+    <comment>Used in: PopulateForm</comment>
+  </data>
+  <data name="GetFilteredUsers" xml:space="preserve">
+    <value>SELECT DISTINCT u.user, u.domain, u.displayname, licensekey
+FROM LICENSELOG l
+LEFT JOIN user u USING(user, domain)
+WHERE l.message = '3000'
+GROUP BY u.user
+ORDER BY domain, user, displayname</value>
+    <comment>Used in: PopulateForm</comment>
+  </data>
+  <data name="GetLastDistributionDate" xml:space="preserve">
+    <value>SELECT MAX(time) AS lastdate, COUNT(*) AS count FROM licenselog WHERE message='3000'
+AND licensekey= ?key
+AND productid = ?id
+AND file= ?file
+GROUP BY licensekey, productid, file</value>
+    <comment>Used in: CheckLicense</comment>
+  </data>
+  <data name="GetLicenseInfo" xml:space="preserve">
+    <value>SELECT licensekey, distributed, multi, insertdate
+FROM license
+WHERE licensekey = ?key AND file = ?file AND productid = ?productid</value>
+    <comment>Used in: CheckLicense</comment>
+  </data>
+  <data name="GetLicensesByProduct" xml:space="preserve">
+    <value>SELECT licensekey, user, domain, multi, distributed, time
+FROM license l
+LEFT OUTER JOIN licenselog USING(licensekey)
+WHERE l.file = ?file
+AND l.productid = ?productid
+GROUP BY licensekey
+ORDER BY domain IS NULL, domain ASC, user ASC, licensekey ASC</value>
+  </data>
+  <data name="GetProductsByFile" xml:space="preserve">
+    <value>SELECT productid, productname, productdescription FROM products WHERE file = ?fileId</value>
+    <comment>Used in: EditProduct</comment>
+  </data>
+  <data name="GetProductsByLicense" xml:space="preserve">
+    <value>SELECT p.productname, p.productdescription, p.productid, p.file
+FROM license l
+LEFT JOIN products p ON(p.file = l.file AND p.productid = l.productid)
+WHERE lcase(l.licensekey) = ?key
+ORDER BY p.productname</value>
+    <comment>Used in: CheckLicense</comment>
+  </data>
+  <data name="GetProductsByUser" xml:space="preserve">
+    <value>SELECT p.productname, p.productid, p.file, i.lang, l.time, l.licensekey
+FROM LICENSELOG l
+LEFT JOIN products p USING(file,productid)
+LEFT JOIN images i USING(file)
+WHERE l.user = ?user
+AND l.domain = ?domain
+AND l.message = '3000'</value>
+    <comment>Used in: PopulateForm</comment>
+  </data>
+  <data name="GetSingleFile" xml:space="preserve">
+    <value>SELECT CONCAT(path,'\\\\', file,'.',ext) AS filename, lang, date, dvdmedia
+FROM images
+WHERE file = ?fileId LIMIT 1</value>
+  </data>
+  <data name="GetSingleProduct" xml:space="preserve">
+    <value>SELECT productname, productdescription, licensefromfile, licensefromproductid FROM products
+WHERE file = ?file
+AND productid = ?productid LIMIT 1</value>
+  </data>
+  <data name="GetUserByLicense" xml:space="preserve">
+    <value>SELECT llog.user, llog.domain, u.displayname, llog.time
+FROM licenselog llog
+LEFT JOIN user u ON(u.user = llog.user AND u.domain = llog.domain)
+WHERE llog.message = '3000'
+AND llog.licensekey = ?key
+AND llog.productid= ?productId
+AND llog.file =  ?fileId
+GROUP BY u.user, u.domain</value>
+  </data>
+  <data name="RemoveAllImageLogs" xml:space="preserve">
+    <value>DELETE FROM IMAGESLOG</value>
+  </data>
+  <data name="RemoveAllUserLogs" xml:space="preserve">
+    <value>DELETE FROM USERLOG</value>
+  </data>
+  <data name="RemoveUserLicense" xml:space="preserve">
+    <value>DELETE FROM LICENSELOG WHERE user = ?user AND file = ?file and productid = ?productid</value>
+  </data>
+  <data name="SearchLicenseByProduct" xml:space="preserve">
+    <value>SELECT log.user, log.domain, l.licensekey, l.insertdate, l.multi, l.distributed
+FROM license l
+LEFT JOIN licenselog log USING(licensekey)
+WHERE licensekey LIKE ?keyword
+ORDER BY log.domain IS NULL, log.domain ASC, log.user ASC, l.licensekey ASC</value>
+  </data>
+  <data name="SearchLicenseByUser" xml:space="preserve">
+    <value>SELECT p.productname, l.productid, l.file, i.lang, licensekey, insertdate, l.multi, l.distributed
+FROM license l
+LEFT JOIN products p USING(file,productid)
+LEFT JOIN images i USING(file)
+WHERE l.licensekey LIKE ?keyword</value>
+  </data>
+  <data name="SearchProduct" xml:space="preserve">
+    <value>SELECT CONCAT(i.path,'\\\\', i.file,'.',i.ext) AS filename,p.file,p.productid,p.productname,p.productdescription, i.path, i.ext,i.date,i.lang, i.dvdmedia
+FROM products p
+LEFT JOIN images i ON (i.file = p.file)
+WHERE p.productname LIKE ?keyword OR p.file like ?keyword  OR p.productdescription LIKE ?keyword OR i.lang LIKE ?keyword OR i.path LIKE ?keyword
+ORDER BY p.productname, p.productid, i.file, i.path, i.date, i.lang, i.dvdmedia</value>
+  </data>
+  <data name="SearchProductsWithLicenses" xml:space="preserve">
+    <value>SELECT DISTINCT i.file, p.productname, p.productid, i.lang
+FROM license l
+LEFT JOIN images i using(file)
+LEFT JOIN products p using(file, productid)
+WHERE productname like ?keyword
+AND file like ?keyword
+GROUP BY file, productid
+ORDER BY p.productname, file, productid</value>
+  </data>
+  <data name="SearchUser" xml:space="preserve">
+    <value>SELECT user, domain, displayname FROM user
+WHERE user LIKE ?keyword
+OR domain LIKE ?keyword
+OR displayname LIKE ?keyword
+ORDER BY domain, user, displayname</value>
+  </data>
+</root>

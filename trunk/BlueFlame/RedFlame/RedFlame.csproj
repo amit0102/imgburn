@@ -1,0 +1,282 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{888082E9-AA11-4B6D-ADCC-2C70806ED044}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RedFlame</RootNamespace>
+    <AssemblyName>RedFlame</AssemblyName>
+    <ApplicationIcon>redflame.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MySql.Data, Version=5.1.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AuditData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AuditData.Designer.cs">
+      <DependentUpon>AuditData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CheckLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CheckLicense.Designer.cs">
+      <DependentUpon>CheckLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditConnectionString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditConnectionString.Designer.cs">
+      <DependentUpon>EditConnectionString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditDisc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditDisc.Designer.cs">
+      <DependentUpon>EditDisc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditLicense.Designer.cs">
+      <DependentUpon>EditLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditLicenseKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditLicenseKey.Designer.cs">
+      <DependentUpon>EditLicenseKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditPreferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditPreferences.Designer.cs">
+      <DependentUpon>EditPreferences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditProduct.Designer.cs">
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManuallySpecifyDiscForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManuallySpecifyDiscForm.Designer.cs">
+      <DependentUpon>ManuallySpecifyDiscForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProductPickerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductPickerForm.Designer.cs">
+      <DependentUpon>ProductPickerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AuditData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AuditData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CheckLicense.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CheckLicense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditConnectionString.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditConnectionString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditDisc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditDisc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditLicense.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditLicense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditLicenseKey.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditLicenseKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditPreferences.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditPreferences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditProduct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManuallySpecifyDiscForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManuallySpecifyDiscForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProductPickerForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProductPickerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SqlStrings.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SqlStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources\SqlStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SqlStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\addDisc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\editDisc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\removeDisc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\addProduct.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\editProduct.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\removeProduct.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\arrowUp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\arrowDown.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\fileStatusUnknown.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\fileStatusExists.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\searchProduct.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\searchDialog.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\resetSearch.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\addLicense.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\editLicense.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\license.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\removeLicense.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\gear.ico" />
+    <None Include="Properties\DataSources\settings.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\licenseByUser.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\licenseByProduct.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlueFlame.Classes\BlueFlame.Classes.csproj">
+      <Project>{1199ED00-6BCC-4373-B7A8-80588FE1EDCC}</Project>
+      <Name>BlueFlame.Classes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\copykey.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\checklicense.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\user.ico" />
+    <None Include="Images\disc.ico" />
+    <Content Include="redflame.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

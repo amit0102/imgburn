@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cH_product.Text" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="cH_description.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="cH_date.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="cH_language.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="tSB_search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="tSB_reset.Text" xml:space="preserve">
+    <value>Reset Search</value>
+  </data>
+  <data name="tSB_licenses.Text" xml:space="preserve">
+    <value>Show All Licenses</value>
+  </data>
+  <data name="tSB_burn.Text" xml:space="preserve">
+    <value>Burn</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tSMI_burn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="tSMI_burn.Text" xml:space="preserve">
+    <value>Burn</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 6</value>
+  </data>
+  <data name="tSMI_quit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="tSMI_quit.Text" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="dateiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="dateiToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="tSMI_showalllicences.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="tSMI_showalllicences.Text" xml:space="preserve">
+    <value>Show all Licenses</value>
+  </data>
+  <data name="tSMI_showlog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="tSMI_showlog.Text" xml:space="preserve">
+    <value>Show Log</value>
+  </data>
+  <data name="extrasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="extrasToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="hilfeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHZBBQJwPQRDajoDiIdkO7Db0sbF/f38yP//
+        /1UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRJByh9RQaKjmIw6MaznP/18u7/8u/q/8q7
+        q8D9/fxQ////GAAAAAAAAAAAAAAAAAAAAACiWwwWm1YLQZNSCpqMTgnwhUoI/5NkLv/j2Mzz/////+HY
+        zcJlNwNhrJV7F////60AAAAAAAAAAAAAAAAAAAAAq18NTqNbDNabVwv/lFIK/5BUEv/NtZrr/fz7+f//
+        //v///+P////TdnOwb/z7+vhAAAAAAAAAAAAAAAAAAAAAAAAAACrYA0OpFsMpp1ZDv+kbS//6NzO8f//
+        ///+/v7s////2P////z/////vqqT5QAAAAAAAAAAAAAAAMNtER67aRBZtGUPtKxgDfytayP/3MSp//n2
+        8vv17+nF//7+8///////////6uLa/H1SIs4AAAAAAAAAAAAAAADLchJQw24RwbxpEP+0ZQ//tXAm/+jV
+        wf7s39Dm9/Ls4/Tu5+bu5tzn1sOu34tdKP9yPwWkAAAAAAAAAAAAAAAAAAAAAMtyEnfEbhH+vGoQ/+C/
+        m//iyKvx0auCu8ulfPanbzHwpXE4/4dLCP+ARwf/eUMGWQAAAADmghYC4H4VINp6FJDTdxP+zHIS/8Ru
+        Ef/Pk1L1uW4c+65hDv+nXg//nlgL/5dUCv+PUAn/iEsI04FHBwsAAAAA7IUXYOeCFuDhfhX/2nsU/9N3
+        E//McxKrxW8Rv71qEP+2Zg//rmIO/6ddDf+fWQv/l1QK/ZBQCUoAAAAAAAAAAPKIGAzthRcz54IWtOF/
+        FdHbexRi1HcThM1zEvnFbxH/vmsQ67dmD/2vYg7/p10N86BZDH4AAAAAAAAAAAAAAAD3ixkV8okYqe2G
+        F/fnghaW4X8Wqtt7Ff/UdxT/zXMSs8ZvEYi/axD/t2cPhK9iDkyoXg0BAAAAAAAAAAD/kBoT+44ZzfeM
+        Gf/ziRj17oYXo+iDF7rifxb23HwVfdV4FDnOdBOxx3ARVQAAAAAAAAAAAAAAAAAAAAAAAAAA/5Aaiv+Q
+        GtT8jhl6+IwZK/OJGBTuhhdp6IMXLAAAAADcfBUd1XgUEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Q
+        Gkj/kBoJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/8MAAP8DAAD8BgAA+AQAAPwAAAD4AAAA8AAAAPgBAADgAQAAwAMAAOQHAADADwAAgb8AAD//
+        AAD//wAA//8AAA==
+</value>
+  </data>
+  <data name="ConfigurationError" xml:space="preserve">
+    <value>A configuration error occured. Please contact your administrator</value>
+  </data>
+  <data name="ConfigurationErrorCaption" xml:space="preserve">
+    <value>Configuration error</value>
+  </data>
+  <data name="DatabaseConnectionError" xml:space="preserve">
+    <value>A database connection could not be established. Please contact your administrator</value>
+  </data>
+  <data name="DatabaseConnectionErrorCaption" xml:space="preserve">
+    <value>Database connection error</value>
+  </data>
+</root>

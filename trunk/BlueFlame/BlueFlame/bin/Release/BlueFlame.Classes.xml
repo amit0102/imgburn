@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlueFlame.Classes</name>
+    </assembly>
+    <members>
+        <member name="T:BlueFlame.Classes.MySql.MySqlDataParameter">
+            <summary>
+            Specifies a named parameter
+            </summary>
+        </member>
+        <member name="M:BlueFlame.Classes.MySql.MySqlDataParameter.#ctor(System.String,System.Object)">
+            <summary>
+            Constructor. Sets the parameter identifier '?' for a specified parameter key
+            </summary>
+            <param name="Key"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="P:BlueFlame.Classes.MySql.MySqlDataParameter.Key">
+            <summary>
+            The key of the named parameter
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.MySql.MySqlDataParameter.Value">
+            <summary>
+            The Value of the named mysql parameter
+            </summary>
+        </member>
+        <member name="T:BlueFlame.Classes.UserControls.ImageComboBox">
+            <summary>
+            Designer Class for the image Combobox
+            </summary>
+        </member>
+        <member name="F:BlueFlame.Classes.UserControls.ImageComboBox.components">
+            <summary>
+            Erforderliche Designervariable.
+            </summary>
+        </member>
+        <member name="M:BlueFlame.Classes.UserControls.ImageComboBox.Dispose(System.Boolean)">
+            <summary>
+            Verwendete Ressourcen bereinigen.
+            </summary>
+            <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
+        </member>
+        <member name="M:BlueFlame.Classes.UserControls.ImageComboBoxItem.#ctor">
+            <summary>
+            Constructor. Creates an empty combo box element.
+            </summary>
+        </member>
+        <member name="M:BlueFlame.Classes.UserControls.ImageComboBoxItem.#ctor(System.String)">
+            <summary>
+            Constructor. Creates a combobox item without an image.
+            </summary>
+        </member>
+        <member name="M:BlueFlame.Classes.UserControls.ImageComboBoxItem.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructor. Creates a combo box item with a text and an index for the image to display.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.UserControls.ImageComboBoxItem.Color">
+            <summary>
+            The foreground text color
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.UserControls.ImageComboBoxItem.Text">
+            <summary>
+            The text to display
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.UserControls.ImageComboBoxItem.Tag">
+            <summary>
+            Additional Data for the item
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.UserControls.ImageComboBoxItem.ImageIndex">
+            <summary>
+             The index of the image in the image list
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.UserControls.ImageComboBoxItem.ImageKey">
+            <summary>
+            The image key of the image in the image list
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.UserControls.ImageComboBoxItem.Bold">
+            <summary>
+            Gets or sets a value indicating if the text will be displayed in bold letters
+            </summary>
+        </member>
+        <member name="M:BlueFlame.Classes.MySql.MySqlWrapper.#ctor(System.String)">
+            <summary>
+            Constructor, establishes the Database Connection using a provided connection string
+            </summary>
+            <param name="connectionString">The connection string</param>
+        </member>
+        <member name="M:BlueFlame.Classes.MySql.MySqlWrapper.#ctor(System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Constructor, accepts the Parameters for the database connection
+            </summary>
+            <param name="user">The username for the database</param>
+            <param name="pass">The password for the database</param>
+            <param name="server">The database server</param>
+            <param name="port">The port for the connection</param>
+            <param name="database">The name of the database</param>
+        </member>
+        <member name="M:BlueFlame.Classes.MySql.MySqlWrapper.Query(System.String,BlueFlame.Classes.MySql.MySqlDataParameter[])">
+            <summary>
+            Executes a database query
+            </summary>
+            <param name="command">The MySQL Statement to execute</param>
+            <param name="parameters">A list of MySqlDataParameter Objects to inject in the statement, making it a prepared statement. This can be left empty. Parameters have to be marked with '?parameter' in the statement. See the mysql reference manual for further detail.</param>
+            <returns>A MySqlDataReader als a resultset that can be iterated.</returns>
+        </member>
+        <member name="M:BlueFlame.Classes.MySql.MySqlWrapper.Statement(System.String,BlueFlame.Classes.MySql.MySqlDataParameter[])">
+            <summary>
+            Executes a statement. It desn't return anything, so it can be used for INSERT, UPDATE, etc. statements.
+            </summary>
+            <param name="command">The MySQL Statement to execute</param>
+            <param name="parameters">A list of MySqlDataParameter Objects to inject in the statement, making it a prepared statement. This can be left empty. Parameters have to be marked with '?parameter' in the statement. See the mysql reference manual for further detail.</param>
+        </member>
+        <member name="T:BlueFlame.Classes.DatabaseObjects.SqlStatements">
+            <summary>
+              Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.ResourceManager">
+            <summary>
+              Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.Culture">
+            <summary>
+              Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+              Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.Disc_GetAllProducts">
+            <summary>
+              Sucht eine lokalisierte Zeichenfolge, die SELECT productid FROM products where file = ?file ähnelt.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.Image_Create">
+            <summary>
+              Sucht eine lokalisierte Zeichenfolge, die INSERT INTO images VALUES(?file,?lang,?date,?path,?ext,?dvdmedia) ähnelt.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.Image_Remove">
+            <summary>
+              Sucht eine lokalisierte Zeichenfolge, die DELETE FROM images WHERE file = ?file LIMIT 1 ähnelt.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.Image_Save">
+             <summary>
+               Sucht eine lokalisierte Zeichenfolge, die UPDATE images SET lang = ?lang, date = ?date, path = ?path, ext = ?ext, dvdmedia = ?dvdmedia
+            WHERE file = ?file LIMIT 1 ähnelt.
+             </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.License_Create">
+            <summary>
+              Sucht eine lokalisierte Zeichenfolge, die INSERT INTO license VALUES(?file,?productid,?licensekey,?distributed,?multi,?insertdate) ähnelt.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.License_Remove">
+            <summary>
+              Sucht eine lokalisierte Zeichenfolge, die DELETE FROM license WHERE file = ?file AND productid = ?productid AND licensekey = ?licensekey LIMIT 1 ähnelt.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.License_Save">
+            <summary>
+              Sucht eine lokalisierte Zeichenfolge, die UPDATE license SET distributed = ?distributed,multi = ?multi,insertdate = ?insertdate WHERE file = ?file AND productid = ?productid AND licensekey = ?licensekey LIMIT 1 ähnelt.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.Product_Create">
+            <summary>
+              Sucht eine lokalisierte Zeichenfolge, die INSERT INTO products VALUES(?file,?productid,?productname,?productdescription,?licensefromfile,?licensefromproductid) ähnelt.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.Product_Remove">
+            <summary>
+              Sucht eine lokalisierte Zeichenfolge, die DELETE FROM products WHERE file = ?file AND productid = ?productid LIMIT 1 ähnelt.
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.SqlStatements.Product_Save">
+            <summary>
+              Sucht eine lokalisierte Zeichenfolge, die UPDATE products SET productname = ?productname, productdescription = ?productdescription,licensefromfile = ?licensefromfile,licensefromproductid = ?licensefromproductid WHERE file = ?file AND productid = ?productid LIMIT 1 ähnelt.
+            </summary>
+        </member>
+        <member name="M:BlueFlame.Classes.ListViewColumnStatus.Reorder(System.Int32)">
+            <summary>
+            Returns a sort order for a selected list view column, switching between ascending and descending.
+            </summary>
+            <param name="column">The column index of the clicked column </param>
+            <returns>The sort order of the column</returns>
+        </member>
+        <member name="M:BlueFlame.Classes.DatabaseObjects.Disc.#ctor(System.String,System.String,BlueFlame.Classes.MediaType)">
+            <summary>
+            Creates a new wrapper for a primary key of an image file in the database,
+            containing a product id, file id and media type
+            </summary>
+            <param name="fileid">The file id from the database, eg. 2132.3</param>
+            <param name="productid">The product id from the database, eg. 1</param>
+            <param name="type">The media type of the disc. This can either be a DVD or a CD</param>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.Disc.MediaType">
+            <summary>
+            Returns the media type of the image file
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.Disc.ProductId">
+            <summary>
+            Returns the database product id for this product 
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.DatabaseObjects.Disc.FileId">
+            <summary>
+            Returns the database image file id for this product
+            </summary>
+        </member>
+        <member name="M:BlueFlame.Classes.ActiveDirectoryAuthentification.IsAuthentificated(System.String,System.String,System.String,System.String)">
+            <summary>
+            Authentificates a user in an active directory domain by checking for its sAMAccoutName. 
+            If the User could be authenticated against the Domain the static fields of the class are 
+            filled and can be accessed from the calling code level
+            </summary>
+            <param name="server">Name or address of the server, eg. 'domain.server.de'</param>
+            <param name="domainName">Name of Userdomain, eg. 'DCS'</param>
+            <param name="username">The username for to authenticate by its account name, eg. 'm0012345'</param>
+            <param name="password">The password to authenticate with</param>
+            <returns>True if the user could be authenticated against the domain, false if not or an error occured</returns>
+        </member>
+        <member name="P:BlueFlame.Classes.ActiveDirectoryAuthentification.DisplayName">
+            <summary>
+            Returns the Username eg. 'John Doe'
+            </summary>
+        </member>
+        <member name="P:BlueFlame.Classes.ActiveDirectoryAuthentification.AccountName">
+            <summary>
+            Returns the account Name eg. 'm0012345'
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,16 @@
+bin\Debug\RedFlame.exe
+bin\Debug\RedFlame.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RedFlame.csproj.ResolveComReference.cache
+obj\Debug\RedFlame.Form1.resources
+obj\Debug\RedFlame.Properties.Resources.resources
+obj\Debug\RedFlame.csproj.GenerateResource.Cache
+obj\Debug\RedFlame.exe
+obj\Debug\RedFlame.pdb
+obj\Debug\RedFlame.Forms.ReadImage.resources
+obj\Debug\Interop.NEROLib.dll
+bin\Debug\Interop.NEROLib.dll
+obj\Debug\RedFlame.Forms.EditProductDialog.resources
+obj\Debug\RedFlame.Forms.EditServer.resources
+obj\Debug\RedFlame.Forms.EditServerList.resources
+obj\Debug\RedFlame.Forms.ReadProgressDialog.resources
