@@ -180,3 +180,5 @@ C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\
 C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\RedFlame\obj\Release\RedFlame.exe
 C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\RedFlame\obj\Release\RedFlame.pdb
 C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\RedFlame\obj\Debug\RedFlame.Forms.AuditData.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\RedFlame\obj\Debug\RedFlame.Forms.ImportLicense.resources
+C:\Dokumente und Einstellungen\nossi\Eigene Dateien\Visual Studio 2005\Projects\BlueFlame\RedFlame\obj\Release\RedFlame.Forms.ImportLicense.resources

@@ -99,7 +99,9 @@ namespace BlueFlame.Forms
             // show available burners
             cB_burner.Items.Clear();
             for (int i = 0; i < MainForm.Drives.Count; i++)
+            {
                 cB_burner.Items.Add(MainForm.Drives.Item(i).DeviceName);
+            }
 
             GetFileInfo();
             LicenseType licenseType = GetLicense(_disc.FileId, _disc.ProductId);

@@ -33,14 +33,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BlueFlame.exe" size="290816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BlueFlame.exe" size="294912">
       <assemblyIdentity name="BlueFlame" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>06J4v0P9O+KOTSa24zTPAyLq7ig=</dsig:DigestValue>
+        <dsig:DigestValue>Mrarm2AY9YzU6wIyoDBkuxveKOE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -52,7 +52,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>xBffZuVniXa9UiOsdcsl+nkyIxk=</dsig:DigestValue>
+        <dsig:DigestValue>DQQBhvgYQ+MPfB2u42FYRSnyRwo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -68,13 +68,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="BlueFlame.exe.config" size="359">
+  <file name="BlueFlame.exe.config" size="631">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Dk5rfW6M04nunkH4y0ySk1TOAzI=</dsig:DigestValue>
+      <dsig:DigestValue>a29fnGOUTjGS7Qi5POHUx9qZdKE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="BlueFlame.ico" size="32038">

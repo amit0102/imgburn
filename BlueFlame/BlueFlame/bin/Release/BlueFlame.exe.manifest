@@ -40,7 +40,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>CeUH0i0TERVkrF2H7vnRgDnz3Go=</dsig:DigestValue>
+        <dsig:DigestValue>SwOVMu5CbneyaHo3ckAy+FxJfEU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -52,7 +52,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>zChv4YQ9ajwnXfJfnduK593D7kc=</dsig:DigestValue>
+        <dsig:DigestValue>O+av3hoqAjkjE5Mnx8QYjNHVJN4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -68,13 +68,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="BlueFlame.exe.config" size="359">
+  <file name="BlueFlame.exe.config" size="631">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Dk5rfW6M04nunkH4y0ySk1TOAzI=</dsig:DigestValue>
+      <dsig:DigestValue>a29fnGOUTjGS7Qi5POHUx9qZdKE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="BlueFlame.ico" size="32038">

@@ -23,6 +23,7 @@ using BlueFlame.Classes.MySql;
 using BlueFlame.Forms;
 using BlueFlame.Classes.DatabaseObjects;
 using System.Threading;
+using System.Collections.Specialized;
 
 
 namespace BlueFlame
@@ -33,7 +34,12 @@ namespace BlueFlame
 
         ComponentResourceManager _compResMan;
 
-
+        private static List<string> _deniedGroups;
+        public static List<string> DeniedGroups
+        {
+            get { return _deniedGroups; }
+        }
+        
         // The Nero Base object
         private static NeroClass _nero;
         public static NeroClass Nero
@@ -123,6 +129,7 @@ namespace BlueFlame
             // Instantiation of all Resources
             _nero = new NeroClass();
             _nero.OnFileSelImage +=new _INeroEvents_OnFileSelImageEventHandler(_nero_OnFileSelImage);
+            
             // Get all available drives
             _drives = _nero.GetDrives(NERO_MEDIA_TYPE.NERO_MEDIA_CD);
 
@@ -149,9 +156,20 @@ namespace BlueFlame
                     _config.Save();
                 }
 
+                if(!_config.AppSettings.SectionInformation.IsProtected)
+                {
+                    _config.AppSettings.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");
+                    _config.Save();
+                }
                 // extract database connection string from app.config
                 string connectionString = _config.ConnectionStrings.ConnectionStrings["ConnectionString"].ConnectionString;
 
+                //_deniedGroups = (StringCollection)_config.AppSettings.Settings["DeniedGroups"];
+
+
+                foreach (string str in _config.AppSettings.Settings["DeniedGroups"].Value.Split(new char[] { ';' }))
+                    _deniedGroups.Add(str);
+                    
                 // instantiate database wrapper (with connection)
                 _mysql = new MySqlWrapper(connectionString);
                 Log("Database connection established.");
@@ -222,7 +240,12 @@ namespace BlueFlame
             LogonForm logonForm = new LogonForm();
 
             this.WindowState = FormWindowState.Minimized;
+            #if DEBUG
+            isLoggedIn = true;
+            #else 
             isLoggedIn = false;
+            #endif
+          
 
             // Logon routine
             while(isLoggedIn == false)

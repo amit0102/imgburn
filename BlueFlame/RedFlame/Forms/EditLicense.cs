@@ -8,6 +8,8 @@ using System.Windows.Forms;
 using BlueFlame.Classes.DatabaseObjects;
 using MySql.Data.MySqlClient;
 using BlueFlame.Classes.MySql;
+using System.Xml.XPath;
+using System.IO;
 
 namespace RedFlame.Forms
 {
@@ -272,6 +274,30 @@ namespace RedFlame.Forms
                 licenseEditor.ShowDialog();
             }
             
+        }
+
+        private void tSB_import_Click(object sender, EventArgs e)
+        {
+            ImportLicense import = new ImportLicense();
+            if (import.ShowDialog() == DialogResult.OK)
+            {
+                bool multi = import.IsMulti;
+
+                foreach (string str in import.Keys)
+                {
+                        BlueFlame.Classes.DatabaseObjects.License license = 
+                        new BlueFlame.Classes.DatabaseObjects.License(
+                            str,
+                            multi,
+                            false,
+                            "",
+                            null,
+                            _product);
+                    license.Create();
+                    _licenseProvider = null;
+                }
+                GetLicenseKeys(_product);
+            }
         }
     }
 }
