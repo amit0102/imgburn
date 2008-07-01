@@ -26,6 +26,14 @@ namespace BlueFlame.Classes
         {
             get { return _accountName; }
         }
+
+        private static string _department;
+
+        public static string Department
+        {
+            get { return _department; }
+        }
+
         #endregion
 
         /// <summary>
@@ -68,6 +76,7 @@ namespace BlueFlame.Classes
                 // Find the properties Displayname, Group and Account Name
                 searcher.PropertiesToLoad.Add("cn");
                 searcher.PropertiesToLoad.Add("sAMAccountName");
+                searcher.PropertiesToLoad.Add("department");
 
                 // Apply the searchfilter to specifiy that the desired object is a user object
                 searcher.Filter = searchfilter;
@@ -80,6 +89,7 @@ namespace BlueFlame.Classes
                 {
                     _accountName = result.Properties["sAMAccountName"][0].ToString();
                     _displayname = result.Properties["cn"][0].ToString();
+                    _department = result.Properties["department"][0].ToString();
 
                     // Return that the user IsAuthenticated
                     return true;

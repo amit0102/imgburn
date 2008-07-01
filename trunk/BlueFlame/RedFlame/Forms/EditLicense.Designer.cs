@@ -71,6 +71,8 @@
             this.l_product = new System.Windows.Forms.Label();
             this.l_productid = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.tSB_import = new System.Windows.Forms.ToolStripButton();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.gB_licenses.SuspendLayout();
             this.toolStripContainer1.BottomToolStripPanel.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
@@ -133,7 +135,7 @@
             // tSSL_count
             // 
             this.tSSL_count.Name = "tSSL_count";
-            this.tSSL_count.Size = new System.Drawing.Size(65, 17);
+            this.tSSL_count.Size = new System.Drawing.Size(61, 17);
             this.tSSL_count.Text = "tSSL_count";
             // 
             // lV_licenses
@@ -181,13 +183,13 @@
             this.editLicenseToolStripMenuItem,
             this.removeLicenseToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(160, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(163, 70);
             // 
             // addLicenseToolStripMenuItem
             // 
             this.addLicenseToolStripMenuItem.Image = global::RedFlame.Properties.Resources.addLicense;
             this.addLicenseToolStripMenuItem.Name = "addLicenseToolStripMenuItem";
-            this.addLicenseToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.addLicenseToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.addLicenseToolStripMenuItem.Text = "Add License";
             this.addLicenseToolStripMenuItem.Click += new System.EventHandler(this.tSB_add_Click);
             // 
@@ -195,7 +197,7 @@
             // 
             this.editLicenseToolStripMenuItem.Image = global::RedFlame.Properties.Resources.editLicense;
             this.editLicenseToolStripMenuItem.Name = "editLicenseToolStripMenuItem";
-            this.editLicenseToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.editLicenseToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.editLicenseToolStripMenuItem.Text = "Edit License";
             this.editLicenseToolStripMenuItem.Click += new System.EventHandler(this.tSB_editLicense_Click);
             // 
@@ -203,7 +205,7 @@
             // 
             this.removeLicenseToolStripMenuItem.Image = global::RedFlame.Properties.Resources.removeLicense;
             this.removeLicenseToolStripMenuItem.Name = "removeLicenseToolStripMenuItem";
-            this.removeLicenseToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.removeLicenseToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.removeLicenseToolStripMenuItem.Text = "Remove License";
             this.removeLicenseToolStripMenuItem.Click += new System.EventHandler(this.tSB_removeLicense_Click);
             // 
@@ -220,10 +222,11 @@
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tSB_add,
             this.tSB_editLicense,
-            this.tSB_removeLicense});
+            this.tSB_removeLicense,
+            this.tSB_import});
             this.toolStrip1.Location = new System.Drawing.Point(3, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(81, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(135, 25);
             this.toolStrip1.TabIndex = 0;
             // 
             // tSB_add
@@ -533,6 +536,20 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Product Id:";
             // 
+            // tSB_import
+            // 
+            this.tSB_import.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tSB_import.Image = global::RedFlame.Properties.Resources.license;
+            this.tSB_import.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tSB_import.Name = "tSB_import";
+            this.tSB_import.Size = new System.Drawing.Size(23, 22);
+            this.tSB_import.Text = "Import";
+            this.tSB_import.Click += new System.EventHandler(this.tSB_import_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // EditLicense
             // 
             this.AcceptButton = this.b_ok;
@@ -618,5 +635,7 @@
         private System.Windows.Forms.Label l_licenseFromProductId;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button b_choose;
+        private System.Windows.Forms.ToolStripButton tSB_import;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

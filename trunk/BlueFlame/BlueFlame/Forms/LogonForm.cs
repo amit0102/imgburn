@@ -137,16 +137,36 @@ namespace BlueFlame.Forms
             // If the authentification succeeds the static properties in the class are filled
             if (ActiveDirectoryAuthentification.IsAuthentificated(server, domainName, username, password))
             {
-                NotifyUserLog(LogMessage.UserLogonSuccess);                                
-                _accountName = ActiveDirectoryAuthentification.AccountName;
-                _displayName = ActiveDirectoryAuthentification.DisplayName;
-                _domain = domainName;
-                
-                // Set back the Cursor
-                Cursor = Cursors.Default;
+                if (HasGroupPermission(ActiveDirectoryAuthentification.Department))
+                {
+                    NotifyUserLog(LogMessage.UserLogonSuccess);
+                    _accountName = ActiveDirectoryAuthentification.AccountName;
+                    _displayName = ActiveDirectoryAuthentification.DisplayName;
+                    _domain = domainName;
 
-                // Successfully quit the dialog
-                this.DialogResult = DialogResult.OK;   
+                    // Set back the Cursor
+                    Cursor = Cursors.Default;
+
+                    // Successfully quit the dialog
+                    this.DialogResult = DialogResult.OK;
+                }
+                else
+                {
+                    NotifyUserLog(LogMessage.UserLogonError);
+                    Cursor = Cursors.Default;
+                    // display error message
+                    if (Thread.CurrentThread.CurrentUICulture.Name == "en")
+                        MessageBox.Show("You are not permitted to use this application.",
+                                        "Access denied",
+                                        MessageBoxButtons.OK,
+                                        MessageBoxIcon.Error);
+                    else
+                        MessageBox.Show("Sie sind nicht berechtigt, diese Anwendung zu verwenden.",
+                                        "Zugriff verweigert",
+                                        MessageBoxButtons.OK,
+                                        MessageBoxIcon.Error);
+                    this.DialogResult = DialogResult.Cancel;
+                }
             }
             else
             {
@@ -185,6 +205,30 @@ namespace BlueFlame.Forms
                 this.DialogResult = DialogResult.Cancel;
             }
         }
+
+        private bool HasGroupPermission(string department)
+        {
+            if (MainForm.DeniedGroups == null) return false;
+            return ! MainForm.DeniedGroups.Contains(department);
+        }
+
+        //Private Function CheckAllowGroups(ByVal Group As String) As Boolean
+        //    Dim RC As Boolean = False
+        //    If Group.Length = 0 Then
+        //        Return False
+        //    End If
+        //    For Each G As String In AllowGroups
+
+        //        If G <> "" Then
+        //            If G.ToLower() = Group.Substring(0, G.Length).ToLower() Then
+        //                RC = True
+        //                Exit For
+        //            End If
+        //        End If
+        //    Next
+        //    Return RC
+        //End Function
+
 
         private void b_cancel_Click(object sender, EventArgs e)
         {
